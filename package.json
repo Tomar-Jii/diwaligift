@@ -1,0 +1,11 @@
+{
+  "name": "diwaligift",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx serve faah_diwali_prank",
+    "dev": "npx serve faah_diwali_prank"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
