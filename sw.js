@@ -11,7 +11,7 @@
  * - Zero repeated network requests for already-cached assets
  */
 
-const CACHE_NAME = 'faah-assets-v1';
+const CACHE_NAME = 'faah-assets-v2';
 
 // File extensions eligible for persistent caching
 const CACHEABLE_EXTENSIONS = /\.(mp4|webm|mp3|wav|ogg|jpg|jpeg|png|gif|svg|webp|ico|woff2|woff|ttf|otf)$/i;
@@ -192,4 +192,3 @@ async function createRangeResponse(response, rangeHeader) {
     headers: headers
   });
 }
-
