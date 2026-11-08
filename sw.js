@@ -50,7 +50,7 @@ self.addEventListener('fetch', (event) => {
 
   const isSameOrigin = url.origin === self.location.origin;
   const isStaticAsset = isSameOrigin && (
-    url.pathname.startsWith('/assets/') ||
+    url.pathname.startsWith('./assets/') ||
     url.pathname.startsWith('/favicon') ||
     CACHEABLE_EXTENSIONS.test(url.pathname)
   );
