@@ -27,7 +27,8 @@ jobs:
       - name: Prepare site
         run: |
           mkdir _site
-          cp -a faah_diwali_prank/. _site/
+          cp index.html _site/
+          cp -a faah_diwali_prank _site/
           python - <<'PY'
           from pathlib import Path
           import re
